@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18385136-a238-4b20-afbc-f9ee57637a1d">
+  <name>ОбменИнтернетМагазин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен интернет-магазин</value>
+  </synonym>
+  <rootURL>OnlineStoreExchange</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="efe65af7-3529-4849-890f-df8968a45cf6">
+    <name>rpc</name>
+    <synonym>
+      <key>ru</key>
+      <value>RPC</value>
+    </synonym>
+    <template>/rpc</template>
+    <methods uuid="8e9a6d08-5d85-45b4-8e7c-69b71a1d478c">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>rpcPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

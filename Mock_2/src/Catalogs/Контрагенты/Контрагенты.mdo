@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24c70650-49dc-4dc7-81b6-77357b7b4a7d">
+  <producedTypes>
+    <objectType typeId="11924ff5-e2d3-496c-ad22-d7f9c43b6210" valueTypeId="ab83aea3-13c4-49f3-adad-05a29fd71ff4"/>
+    <refType typeId="830d83a4-0d36-434c-8afa-74c30f51dc68" valueTypeId="a23cc273-d0aa-47c1-ac19-95d01ef110b6"/>
+    <selectionType typeId="1cdbeace-1535-4c84-9cd0-934e7e7bc626" valueTypeId="8f1cec99-d1e0-4e4f-88b0-847b389d22e9"/>
+    <listType typeId="f359d6f9-5c4a-49a5-82a8-e9de002cbae1" valueTypeId="d8912927-b263-4495-8f89-11ff2d52f09b"/>
+    <managerType typeId="e39269dc-c3e9-4f14-870d-8e8c1df014c8" valueTypeId="60a69104-e26a-4094-b8bc-7b8b55a16448"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e35c1f35-ee67-4c23-aa21-9a0d6c489aa4">
+    <name>guid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Guid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask>NNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="006bd4dc-bf63-4a8d-a0c3-7783c0236e6e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="143451c5-80b3-49eb-9e82-1655cee37f00">
+  <producedTypes>
+    <objectType typeId="f9c3c26d-9bc7-4dcd-81f6-1fb8a955cf0a" valueTypeId="d4ab096b-20c0-45c0-ba77-b6dd0555d2e8"/>
+    <refType typeId="01e58bee-4b45-49dc-b4b0-9c6b579c6abf" valueTypeId="b19aec48-f82e-4a4d-9dc4-82d82c9a8669"/>
+    <selectionType typeId="793d80d0-80ac-4ce5-accc-22da2e811d61" valueTypeId="127e384f-ab31-4f94-8b92-4071ee9d3612"/>
+    <listType typeId="c2967fb5-677d-4f09-95b8-86961727599b" valueTypeId="eff0c964-3313-4dd3-bdf3-107a962f3e0d"/>
+    <managerType typeId="c0289794-484a-4767-be23-94a96eb9deb0" valueTypeId="5b8d333d-4093-4a69-8cba-b8f7424d68b3"/>
+  </producedTypes>
+  <name>СкидкиНаценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки наценки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СкидкиНаценки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СкидкиНаценки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="02f62e39-c062-4a3e-8190-2f2929fa31a0">
+    <name>guid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Guid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask>NNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="18080845-f420-4823-8191-c9a8d8592df5">
+    <name>ЗначениеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение скидки в процентах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="702c0b77-75df-4772-91f1-6c1bae362f87">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

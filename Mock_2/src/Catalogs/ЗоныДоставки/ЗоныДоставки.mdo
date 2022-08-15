@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd7e1bc7-41a1-4c43-bf24-8771df34a90f">
+  <producedTypes>
+    <objectType typeId="21f6e9db-5015-4fe4-80c3-5b12c30e4857" valueTypeId="0617867a-07a5-42cc-86f2-faab2f2023fc"/>
+    <refType typeId="6960448e-02bf-4e84-8661-31c97c240724" valueTypeId="f4938f9a-f483-4176-8055-463a8c68f2b8"/>
+    <selectionType typeId="d0ac8599-1bb7-4729-81b0-06679c975681" valueTypeId="537010a0-29f0-4e7a-a2be-58ba48551a09"/>
+    <listType typeId="8584ff4a-0380-4489-b2a7-9c2775990cde" valueTypeId="c5f14ad7-e700-469a-80bc-68dfc8c902ca"/>
+    <managerType typeId="eae75a9e-df4f-4f6a-a0f5-78423eaaa25c" valueTypeId="ed19da85-601e-44bd-bb40-bc4ff9cce4c5"/>
+  </producedTypes>
+  <name>ЗоныДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зоны доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗоныДоставки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЗоныДоставки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ЗоныДоставки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЗоныДоставки.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="417028f8-c5f9-4a32-b096-8afb3a3aa592">
+    <name>guid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Guid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask>NNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84679558-3674-44bd-92f2-b81c6cd0d4a9">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7be72c37-f1bf-415d-b635-d72beb5c14ea">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="afc4d6f0-457d-447f-9fda-823abf87480e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aa6514d3-9f0a-4318-bff4-80938baaa097">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

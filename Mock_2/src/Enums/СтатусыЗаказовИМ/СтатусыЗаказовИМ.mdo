@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cff9d9b1-2258-47a9-b242-f9b7ec374b68">
+  <producedTypes>
+    <refType typeId="9f1a12a3-0532-4fb7-96bf-80cdcd4a4f01" valueTypeId="72ea10cb-1921-4223-a6bc-b0240aacf833"/>
+    <listType typeId="b01ac78b-f68b-44f6-a0aa-7eefa87bf9dc" valueTypeId="9a83f45e-04b8-473d-a2a8-6ee757433bf3"/>
+    <managerType typeId="ac3fce51-c9cd-4556-a4b5-1fc4ff3e2e87" valueTypeId="952fa349-d243-4abb-8b20-ce8943794a33"/>
+  </producedTypes>
+  <name>СтатусыЗаказовИМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказов ИМ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8e446b84-1e81-4a44-9a65-a065a14cea57">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85f5e0b3-82ef-4031-94f7-f512b83f832d">
+    <name>Обрабатывается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27cc989f-05a6-44cd-b301-df0a885a239e">
+    <name>Зарезервирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарезервирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ca247f0-0796-4f3a-aca2-57a6822d1dff">
+    <name>Комплектуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c81f2122-79f6-4b4b-bee3-811921af456c">
+    <name>ОжидаетДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает доставки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39acf000-34e2-40bb-a399-84eeada3829d">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e2bad2d-85e3-405c-8582-3e2321e0763e">
+    <name>Доставлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2652708-4c01-42ea-afe7-ca184ff64f29">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ce3dd66-ff78-4326-8b69-9a58d5ecec47">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

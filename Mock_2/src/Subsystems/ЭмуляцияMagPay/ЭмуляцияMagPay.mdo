@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bf144b5-d0fb-455e-8574-04c709c3b823">
+  <name>ЭмуляцияMagPay</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эмуляция mag pay</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаказКлиентаМагПэй</content>
+</mdclass:Subsystem>

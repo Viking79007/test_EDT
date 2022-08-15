@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d5cd553-8e9c-4613-8944-d09621570e23">
+  <producedTypes>
+    <refType typeId="1c1a8558-2b2e-42a0-b1eb-98afe12eece6" valueTypeId="a0141205-d5c6-4fbd-a0b8-c966cd7f4cb0"/>
+    <listType typeId="572ed1a6-97c9-484e-9b9f-973f937e11c2" valueTypeId="43104771-f427-47cb-ad47-9014b824f1dc"/>
+    <managerType typeId="8b6fc740-47ef-427d-b8a6-7e5d6fdac90e" valueTypeId="896d3455-b8ae-4d41-9f2d-72e7421390c2"/>
+  </producedTypes>
+  <name>ВерсииAPIМагПэй</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии APIМаг пэй</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="00b999c3-15d3-4412-95bc-39d36db95e05">
+    <name>v2</name>
+    <synonym>
+      <key>ru</key>
+      <value>V2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

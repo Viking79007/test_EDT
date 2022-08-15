@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="189fa5c8-033f-4e40-8909-af661fe04a4e">
+  <producedTypes>
+    <managerType typeId="62e22c35-9d77-4717-82d9-c863cd73983a" valueTypeId="5fa6f39f-9ecd-408d-aa0d-15928406ee72"/>
+    <valueManagerType typeId="15b2bf46-91fb-4ffe-84ab-bbd21365713c" valueTypeId="61fbf768-47e0-4a1f-b4ab-c8762c5a7ba3"/>
+    <valueKeyType typeId="5875c2ab-aaca-42ef-8850-a09dd8f222bd" valueTypeId="0854d622-b30a-4864-ae2b-52d87ec33b4a"/>
+  </producedTypes>
+  <name>ИспользоватьДополнительныйЯзык1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительный язык1</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

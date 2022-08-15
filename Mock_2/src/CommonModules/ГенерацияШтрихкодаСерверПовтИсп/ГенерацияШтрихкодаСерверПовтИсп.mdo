@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="489971d7-948c-42fa-869f-66375aa634b5">
+  <name>ГенерацияШтрихкодаСерверПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация штрихкода сервер повт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

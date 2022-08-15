@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f59f936-37f0-4d63-ada9-90604a077f44">
+  <name>КомпонентаПечатиQRКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонента печати QRКода</value>
+  </synonym>
+  <comment>Компонента печати QR кода</comment>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

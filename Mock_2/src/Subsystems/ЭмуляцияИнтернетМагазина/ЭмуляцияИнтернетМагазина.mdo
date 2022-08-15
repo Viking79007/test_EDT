@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc4983cc-12a1-428e-aa05-d24dabb82130">
+  <name>ЭмуляцияИнтернетМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эмуляция интернет-магазина</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ЭмуляцияИнтернетМагазина</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Договоры</content>
+  <content>Catalog.Партнеры</content>
+  <content>Catalog.СкидкиНаценки</content>
+  <content>Catalog.ЗоныДоставки</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Document.ЗаказКлиентаИМ</content>
+  <content>Catalog.Подразделения</content>
+</mdclass:Subsystem>
